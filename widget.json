@@ -1,0 +1,176 @@
+{
+ "generated": "2026-10-22T15:12",
+ "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
+ "top1_pct": 22,
+ "top3_pct": 32,
+ "recent": [
+  {
+   "date": "2026-10-22",
+   "vendor": "Guzzu",
+   "icon": "🍱",
+   "cuisine": "Japanese bento",
+   "announced": "11:09",
+   "late": false
+  },
+  {
+   "date": "2026-10-21",
+   "vendor": "Porto's",
+   "icon": "🥐",
+   "cuisine": "Cuban bakery",
+   "announced": "10:57",
+   "late": false
+  },
+  {
+   "date": "2026-10-20",
+   "vendor": "All'Antico Vinaio",
+   "icon": "🥪",
+   "cuisine": "Italian sandwiches",
+   "announced": "11:33",
+   "late": true
+  },
+  {
+   "date": "2026-10-19",
+   "vendor": "CCC",
+   "icon": "🍗",
+   "cuisine": "Chicken & salads",
+   "announced": "10:54",
+   "late": false
+  },
+  {
+   "date": "2026-10-16",
+   "vendor": "Pasta Sisters",
+   "icon": "🍝",
+   "cuisine": "Pasta",
+   "announced": "11:05",
+   "late": false
+  }
+ ],
+ "forecast": [
+  {
+   "date": "2026-10-23",
+   "dow": "Fri",
+   "label": "Oct 23",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 10,
+   "arrival": "11:14",
+   "delay_pct": 17
+  },
+  {
+   "date": "2026-10-24",
+   "dow": "Sat",
+   "label": "Oct 24",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-10-25",
+   "dow": "Sun",
+   "label": "Oct 25",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-10-26",
+   "dow": "Mon",
+   "label": "Oct 26",
+   "weekend": false,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 29,
+   "arrival": "10:58",
+   "delay_pct": 0
+  },
+  {
+   "date": "2026-10-27",
+   "dow": "Tue",
+   "label": "Oct 27",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 11,
+   "arrival": "11:12",
+   "delay_pct": 17
+  },
+  {
+   "date": "2026-10-28",
+   "dow": "Wed",
+   "label": "Oct 28",
+   "weekend": false,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Porto's",
+   "short": "Porto's",
+   "icon": "🥐",
+   "p": 30,
+   "arrival": "11:01",
+   "delay_pct": 0
+  },
+  {
+   "date": "2026-10-29",
+   "dow": "Thu",
+   "label": "Oct 29",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Guzzu",
+   "short": "Guzzu",
+   "icon": "🍱",
+   "p": 18,
+   "arrival": "11:08",
+   "delay_pct": 8
+  },
+  {
+   "date": "2026-10-30",
+   "dow": "Fri",
+   "label": "Oct 30",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Chick-fil-A",
+   "short": "Chick-fil-A",
+   "icon": "🍗",
+   "p": 10,
+   "arrival": "11:14",
+   "delay_pct": 17
+  },
+  {
+   "date": "2026-10-31",
+   "dow": "Sat",
+   "label": "Oct 31",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  }
+ ]
+}
