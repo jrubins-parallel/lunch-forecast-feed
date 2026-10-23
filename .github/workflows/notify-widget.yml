@@ -4,8 +4,8 @@
 #
 # Setup: add a repository secret named FIREBASE_SERVICE_ACCOUNT containing the whole service-account
 # JSON from Firebase (Project settings > Service accounts > Generate new private key).
-# Until that secret exists, this workflow skips quietly. Test it any time from the Actions tab
-# with "Run workflow".
+# Until that secret exists, this workflow skips with a "Not set up" warning. Test it any time from
+# the Actions tab with "Run workflow"; each run ends with a one-line Sent / Not set up / error note.
 name: Notify widget
 
 on:
@@ -32,8 +32,12 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${SA_JSON:-}" ]; then
-            echo "FIREBASE_SERVICE_ACCOUNT secret not set; skipping."
+            echo "::warning title=Not set up::FIREBASE_SERVICE_ACCOUNT secret is not set, so no message was sent."
             exit 0
+          fi
+          if ! jq -e '.private_key and .client_email and .project_id' >/dev/null 2>&1 <<<"$SA_JSON"; then
+            echo "::error title=Bad secret::FIREBASE_SERVICE_ACCOUNT isn't a Firebase service-account key (needs private_key, client_email, project_id). Paste the whole downloaded .json file."
+            exit 1
           fi
           umask 077
           printf '%s' "$SA_JSON" > sa.json
@@ -49,15 +53,24 @@ jobs:
           SIG=$(printf '%s' "$HEADER.$CLAIMS" | openssl dgst -sha256 -sign key.pem -binary | b64url)
           rm -f key.pem sa.json
 
-          TOKEN=$(curl -sS --fail -X POST https://oauth2.googleapis.com/token \
+          AUTH=$(curl -sS -X POST https://oauth2.googleapis.com/token \
             -d grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer \
-            -d "assertion=$HEADER.$CLAIMS.$SIG" | jq -r .access_token)
+            -d "assertion=$HEADER.$CLAIMS.$SIG")
+          TOKEN=$(jq -r '.access_token // empty' <<<"$AUTH")
+          if [ -z "$TOKEN" ]; then
+            echo "::error title=Google sign-in failed::$(jq -c '{error, error_description}' <<<"$AUTH")"
+            exit 1
+          fi
           echo "::add-mask::$TOKEN"
 
           BODY=$(jq -cn --arg sha "$GITHUB_SHA" \
             '{message:{topic:"lunch-forecast", data:{kind:"refresh", commit:$sha}, android:{priority:"high", ttl:"3600s"}}}')
-          curl -sS --fail-with-body -X POST \
+          RESP=$(curl -sS -X POST \
             -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
-            "https://fcm.googleapis.com/v1/projects/$PROJECT/messages:send" -d "$BODY"
-          echo
-          echo "Sent refresh to topic lunch-forecast."
+            "https://fcm.googleapis.com/v1/projects/$PROJECT/messages:send" -d "$BODY")
+          if jq -e .name >/dev/null 2>&1 <<<"$RESP"; then
+            echo "::notice title=Sent::Firebase accepted the refresh for topic lunch-forecast (project $PROJECT, commit ${GITHUB_SHA:0:7}): $(jq -r .name <<<"$RESP")"
+          else
+            echo "::error title=Firebase rejected the message::$(jq -c '.error | {code, status, message}' <<<"$RESP" 2>/dev/null || echo "$RESP" | head -c 300)"
+            exit 1
+          fi
