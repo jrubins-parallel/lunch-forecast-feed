@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-23T16:59",
+ "generated": "2026-10-23T11:36-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 21,
- "top3_pct": 38,
+ "top3_pct": 37,
  "recent": [
+  {
+   "date": "2026-10-23",
+   "vendor": "Panini Kabob Grill",
+   "icon": "🍢",
+   "cuisine": "Mediterranean",
+   "announced": "10:45",
+   "late": false
+  },
   {
    "date": "2026-10-22",
    "vendor": "Guzzu",
@@ -35,32 +43,10 @@
    "cuisine": "Chicken & salads",
    "announced": "10:54",
    "late": false
-  },
-  {
-   "date": "2026-10-16",
-   "vendor": "Pasta Sisters",
-   "icon": "🍝",
-   "cuisine": "Pasta",
-   "announced": "11:05",
-   "late": false
   }
  ],
  "advisories": [],
  "forecast": [
-  {
-   "date": "2026-10-23",
-   "dow": "Fri",
-   "label": "Oct 23",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Ggiata",
-   "short": "Ggiata",
-   "icon": "🥪",
-   "p": 10,
-   "arrival": "11:14",
-   "delay_pct": 17
-  },
   {
    "date": "2026-10-24",
    "dow": "Sat",
@@ -127,7 +113,7 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 20,
+   "p": 21,
    "arrival": "11:01",
    "delay_pct": 0
   },
@@ -141,7 +127,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 10,
+   "p": 11,
    "arrival": "11:06",
    "delay_pct": 8
   },
@@ -155,14 +141,28 @@
    "vendor": "Ggiata",
    "short": "Ggiata",
    "icon": "🥪",
-   "p": 8,
-   "arrival": "11:14",
-   "delay_pct": 17
+   "p": 7,
+   "arrival": "11:05",
+   "delay_pct": 15
   },
   {
    "date": "2026-10-31",
    "dow": "Sat",
    "label": "Oct 31",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-11-01",
+   "dow": "Sun",
+   "label": "Nov 1",
    "weekend": true,
    "sky": "🌙",
    "condition": "No catering",
