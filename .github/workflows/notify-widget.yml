@@ -1,0 +1,63 @@
+# Wakes the Lunch Forecast widget on your phone whenever a new forecast is pushed.
+# GitHub sends one HTTP request to Firebase Cloud Messaging (FCM): a silent data message to the
+# "lunch-forecast" topic, which the widget app subscribes to. No notification is shown.
+#
+# Setup: add a repository secret named FIREBASE_SERVICE_ACCOUNT containing the whole service-account
+# JSON from Firebase (Project settings > Service accounts > Generate new private key).
+# Until that secret exists, this workflow skips quietly. Test it any time from the Actions tab
+# with "Run workflow".
+name: Notify widget
+
+on:
+  push:
+    branches: [main]
+    paths: [widget.json]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-widget
+  cancel-in-progress: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Send FCM data message
+        env:
+          SA_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SA_JSON:-}" ]; then
+            echo "FIREBASE_SERVICE_ACCOUNT secret not set; skipping."
+            exit 0
+          fi
+          umask 077
+          printf '%s' "$SA_JSON" > sa.json
+          jq -r .private_key sa.json > key.pem
+          EMAIL=$(jq -r .client_email sa.json)
+          PROJECT=$(jq -r .project_id sa.json)
+
+          b64url() { openssl base64 -e -A | tr '+/' '-_' | tr -d '='; }
+          NOW=$(date +%s)
+          HEADER=$(printf '%s' '{"alg":"RS256","typ":"JWT"}' | b64url)
+          CLAIMS=$(jq -cn --arg iss "$EMAIL" --argjson iat "$NOW" --argjson exp "$((NOW + 3600))" \
+            '{iss:$iss, scope:"https://www.googleapis.com/auth/firebase.messaging", aud:"https://oauth2.googleapis.com/token", iat:$iat, exp:$exp}' | b64url)
+          SIG=$(printf '%s' "$HEADER.$CLAIMS" | openssl dgst -sha256 -sign key.pem -binary | b64url)
+          rm -f key.pem sa.json
+
+          TOKEN=$(curl -sS --fail -X POST https://oauth2.googleapis.com/token \
+            -d grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer \
+            -d "assertion=$HEADER.$CLAIMS.$SIG" | jq -r .access_token)
+          echo "::add-mask::$TOKEN"
+
+          BODY=$(jq -cn --arg sha "${GITHUB_SHA:0:7}" \
+            '{message:{topic:"lunch-forecast", data:{kind:"refresh", commit:$sha}, android:{priority:"high", ttl:"3600s"}}}')
+          curl -sS --fail-with-body -X POST \
+            -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+            "https://fcm.googleapis.com/v1/projects/$PROJECT/messages:send" -d "$BODY"
+          echo
+          echo "Sent refresh to topic lunch-forecast."
