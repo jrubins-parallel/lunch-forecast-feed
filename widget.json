@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-22T16:17",
+ "generated": "2026-10-23T16:59",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 20,
- "top3_pct": 37,
+ "top1_pct": 21,
+ "top3_pct": 38,
  "recent": [
   {
    "date": "2026-10-22",
@@ -142,7 +142,7 @@
    "short": "Guzzu",
    "icon": "🍱",
    "p": 10,
-   "arrival": "11:08",
+   "arrival": "11:06",
    "delay_pct": 8
   },
   {
