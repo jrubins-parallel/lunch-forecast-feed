@@ -54,7 +54,7 @@ jobs:
             -d "assertion=$HEADER.$CLAIMS.$SIG" | jq -r .access_token)
           echo "::add-mask::$TOKEN"
 
-          BODY=$(jq -cn --arg sha "${GITHUB_SHA:0:7}" \
+          BODY=$(jq -cn --arg sha "$GITHUB_SHA" \
             '{message:{topic:"lunch-forecast", data:{kind:"refresh", commit:$sha}, android:{priority:"high", ttl:"3600s"}}}')
           curl -sS --fail-with-body -X POST \
             -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
