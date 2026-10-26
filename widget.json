@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T11:36-07:00",
+ "generated": "2026-10-26T09:59-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 21,
  "top3_pct": 37,
@@ -48,34 +48,6 @@
  "advisories": [],
  "forecast": [
   {
-   "date": "2026-10-24",
-   "dow": "Sat",
-   "label": "Oct 24",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
-   "date": "2026-10-25",
-   "dow": "Sun",
-   "label": "Oct 25",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
    "date": "2026-10-26",
    "dow": "Mon",
    "label": "Oct 26",
@@ -96,10 +68,10 @@
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "John's Kabob",
-   "short": "John's Kabob",
-   "icon": "🍢",
-   "p": 7,
+   "vendor": "Mendocino Farms",
+   "short": "Mendo",
+   "icon": "🥪",
+   "p": 8,
    "arrival": "11:12",
    "delay_pct": 17
   },
@@ -108,12 +80,12 @@
    "dow": "Wed",
    "label": "Oct 28",
    "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
+   "sky": "☁️",
+   "condition": "Cloudy",
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 21,
+   "p": 20,
    "arrival": "11:01",
    "delay_pct": 0
   },
@@ -142,8 +114,8 @@
    "short": "Ggiata",
    "icon": "🥪",
    "p": 7,
-   "arrival": "11:05",
-   "delay_pct": 15
+   "arrival": "11:14",
+   "delay_pct": 17
   },
   {
    "date": "2026-10-31",
@@ -172,7 +144,34 @@
    "p": null,
    "arrival": "",
    "delay_pct": null
+  },
+  {
+   "date": "2026-11-02",
+   "dow": "Mon",
+   "label": "Nov 2",
+   "weekend": false,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 25,
+   "arrival": "10:58",
+   "delay_pct": 0
+  },
+  {
+   "date": "2026-11-03",
+   "dow": "Tue",
+   "label": "Nov 3",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 7,
+   "arrival": "11:12",
+   "delay_pct": 17
   }
- ],
- "ping_test": "2026-10-23T12:22:24-07:00"
+ ]
 }
