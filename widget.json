@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-27T09:59-07:00",
+ "generated": "2026-10-27T11:33-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 20,
- "top3_pct": 37,
+ "top3_pct": 36,
  "recent": [
+  {
+   "date": "2026-10-27",
+   "vendor": "Tender Greens",
+   "icon": "🥗",
+   "cuisine": "Salads & plates",
+   "announced": "11:06",
+   "late": false
+  },
   {
    "date": "2026-10-26",
    "vendor": "Ggiata",
@@ -35,14 +43,6 @@
    "cuisine": "Cuban bakery",
    "announced": "10:57",
    "late": false
-  },
-  {
-   "date": "2026-10-20",
-   "vendor": "All'Antico Vinaio",
-   "icon": "🥪",
-   "cuisine": "Italian sandwiches",
-   "announced": "11:33",
-   "late": true
   }
  ],
  "advisories": [
@@ -58,20 +58,6 @@
  ],
  "forecast": [
   {
-   "date": "2026-10-27",
-   "dow": "Tue",
-   "label": "Oct 27",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Mendocino Farms",
-   "short": "Mendo",
-   "icon": "🥪",
-   "p": 8,
-   "arrival": "11:12",
-   "delay_pct": 17
-  },
-  {
    "date": "2026-10-28",
    "dow": "Wed",
    "label": "Oct 28",
@@ -81,7 +67,7 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 21,
+   "p": 26,
    "arrival": "11:01",
    "delay_pct": 0
   },
@@ -95,7 +81,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 11,
+   "p": 12,
    "arrival": "11:06",
    "delay_pct": 8
   },
@@ -109,7 +95,7 @@
    "vendor": "John's Kabob",
    "short": "John's Kabob",
    "icon": "🍢",
-   "p": 7,
+   "p": 8,
    "arrival": "11:14",
    "delay_pct": 17
   },
@@ -146,12 +132,12 @@
    "dow": "Mon",
    "label": "Nov 2",
    "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
-   "vendor": "Tender Greens",
-   "short": "Tender Greens",
-   "icon": "🥗",
-   "p": 24,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Ggiata",
+   "short": "Ggiata",
+   "icon": "🥪",
+   "p": 8,
    "arrival": "11:00",
    "delay_pct": 0
   },
@@ -162,12 +148,12 @@
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "Mendocino Farms",
-   "short": "Mendo",
-   "icon": "🥪",
-   "p": 8,
-   "arrival": "11:12",
-   "delay_pct": 17
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 9,
+   "arrival": "11:09",
+   "delay_pct": 15
   },
   {
    "date": "2026-11-04",
@@ -182,6 +168,20 @@
    "p": 20,
    "arrival": "11:01",
    "delay_pct": 0
+  },
+  {
+   "date": "2026-11-05",
+   "dow": "Thu",
+   "label": "Nov 5",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Guzzu",
+   "short": "Guzzu",
+   "icon": "🍱",
+   "p": 11,
+   "arrival": "11:06",
+   "delay_pct": 8
   }
  ]
 }
