@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-26T11:13-07:00",
+ "generated": "2026-10-27T09:59-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 21,
+ "top1_pct": 20,
  "top3_pct": 37,
  "recent": [
   {
@@ -45,7 +45,17 @@
    "late": true
   }
  ],
- "advisories": [],
+ "advisories": [
+  {
+   "id": "closed-2026-11-26",
+   "date": "2026-11-26",
+   "label": "Thu Nov 26",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Thanksgiving",
+   "detail": "Office holiday: no catered lunch."
+  }
+ ],
  "forecast": [
   {
    "date": "2026-10-27",
