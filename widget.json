@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-27T11:33-07:00",
+ "generated": "2026-10-28T11:10-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 20,
- "top3_pct": 36,
+ "top1_pct": 21,
+ "top3_pct": 37,
  "recent": [
+  {
+   "date": "2026-10-28",
+   "vendor": "Porto's",
+   "icon": "🥐",
+   "cuisine": "Cuban bakery",
+   "announced": "11:04",
+   "late": false
+  },
   {
    "date": "2026-10-27",
    "vendor": "Tender Greens",
@@ -35,14 +43,6 @@
    "cuisine": "Japanese bento",
    "announced": "11:09",
    "late": false
-  },
-  {
-   "date": "2026-10-21",
-   "vendor": "Porto's",
-   "icon": "🥐",
-   "cuisine": "Cuban bakery",
-   "announced": "10:57",
-   "late": false
   }
  ],
  "advisories": [
@@ -54,23 +54,18 @@
    "kind": "No catering",
    "title": "Thanksgiving",
    "detail": "Office holiday: no catered lunch."
+  },
+  {
+   "id": "closed-2026-11-27",
+   "date": "2026-11-27",
+   "label": "Fri Nov 27",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Day after Thanksgiving",
+   "detail": "Office holiday: no catered lunch."
   }
  ],
  "forecast": [
-  {
-   "date": "2026-10-28",
-   "dow": "Wed",
-   "label": "Oct 28",
-   "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
-   "vendor": "Porto's",
-   "short": "Porto's",
-   "icon": "🥐",
-   "p": 26,
-   "arrival": "11:01",
-   "delay_pct": 0
-  },
   {
    "date": "2026-10-29",
    "dow": "Thu",
@@ -81,7 +76,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 12,
+   "p": 16,
    "arrival": "11:06",
    "delay_pct": 8
   },
@@ -151,9 +146,9 @@
    "vendor": "Tender Greens",
    "short": "Tender Greens",
    "icon": "🥗",
-   "p": 9,
-   "arrival": "11:09",
-   "delay_pct": 15
+   "p": 8,
+   "arrival": "11:08",
+   "delay_pct": 17
   },
   {
    "date": "2026-11-04",
@@ -165,8 +160,8 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 20,
-   "arrival": "11:01",
+   "p": 22,
+   "arrival": "11:03",
    "delay_pct": 0
   },
   {
@@ -179,9 +174,23 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 11,
+   "p": 10,
    "arrival": "11:06",
    "delay_pct": 8
+  },
+  {
+   "date": "2026-11-06",
+   "dow": "Fri",
+   "label": "Nov 6",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 6,
+   "arrival": "11:14",
+   "delay_pct": 17
   }
  ]
 }
