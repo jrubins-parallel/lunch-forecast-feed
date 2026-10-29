@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-29T09:59-07:00",
+ "generated": "2026-10-29T11:33-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 21,
  "top3_pct": 37,
  "recent": [
+  {
+   "date": "2026-10-29",
+   "vendor": "CCC",
+   "icon": "🍗",
+   "cuisine": "Chicken & salads",
+   "announced": "11:08",
+   "late": false
+  },
   {
    "date": "2026-10-28",
    "vendor": "Porto's",
@@ -35,14 +43,6 @@
    "cuisine": "Mediterranean",
    "announced": "10:45",
    "late": false
-  },
-  {
-   "date": "2026-10-22",
-   "vendor": "Guzzu",
-   "icon": "🍱",
-   "cuisine": "Japanese bento",
-   "announced": "11:09",
-   "late": false
   }
  ],
  "advisories": [
@@ -66,20 +66,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-10-29",
-   "dow": "Thu",
-   "label": "Oct 29",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 16,
-   "arrival": "11:06",
-   "delay_pct": 8
-  },
   {
    "date": "2026-10-30",
    "dow": "Fri",
@@ -146,7 +132,7 @@
    "vendor": "Tender Greens",
    "short": "Tender Greens",
    "icon": "🥗",
-   "p": 8,
+   "p": 9,
    "arrival": "11:08",
    "delay_pct": 17
   },
@@ -175,7 +161,7 @@
    "short": "Guzzu",
    "icon": "🍱",
    "p": 10,
-   "arrival": "11:06",
+   "arrival": "11:08",
    "delay_pct": 8
   },
   {
@@ -191,6 +177,20 @@
    "p": 6,
    "arrival": "11:14",
    "delay_pct": 17
+  },
+  {
+   "date": "2026-11-07",
+   "dow": "Sat",
+   "label": "Nov 7",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
   }
  ]
 }
