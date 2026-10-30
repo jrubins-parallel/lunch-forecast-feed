@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-30T11:12-07:00",
+ "generated": "2026-10-30T11:33-07:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 21,
- "top3_pct": 37,
+ "top1_pct": 20,
+ "top3_pct": 36,
  "recent": [
+  {
+   "date": "2026-10-30",
+   "vendor": "Boran Thai",
+   "icon": "🍜",
+   "cuisine": "Thai",
+   "announced": "11:18",
+   "late": true
+  },
   {
    "date": "2026-10-29",
    "vendor": "CCC",
@@ -35,14 +43,6 @@
    "cuisine": "Italian deli",
    "announced": "11:10",
    "late": false
-  },
-  {
-   "date": "2026-10-23",
-   "vendor": "Panini Kabob Grill",
-   "icon": "🍢",
-   "cuisine": "Mediterranean",
-   "announced": "10:45",
-   "late": false
   }
  ],
  "advisories": [
@@ -66,20 +66,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-10-30",
-   "dow": "Fri",
-   "label": "Oct 30",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "John's Kabob",
-   "short": "John's Kabob",
-   "icon": "🍢",
-   "p": 8,
-   "arrival": "11:14",
-   "delay_pct": 17
-  },
   {
    "date": "2026-10-31",
    "dow": "Sat",
@@ -160,7 +146,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 10,
+   "p": 11,
    "arrival": "11:06",
    "delay_pct": 8
   },
@@ -175,13 +161,27 @@
    "short": "John's Kabob",
    "icon": "🍢",
    "p": 6,
-   "arrival": "11:14",
-   "delay_pct": 17
+   "arrival": "11:18",
+   "delay_pct": 23
   },
   {
    "date": "2026-11-07",
    "dow": "Sat",
    "label": "Nov 7",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-11-08",
+   "dow": "Sun",
+   "label": "Nov 8",
    "weekend": true,
    "sky": "🌙",
    "condition": "No catering",
