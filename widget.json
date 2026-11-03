@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-03T09:59-08:00",
+ "generated": "2026-11-03T11:12-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 18,
- "top3_pct": 35,
+ "top3_pct": 36,
  "recent": [
+  {
+   "date": "2026-11-03",
+   "vendor": "Mendocino Farms",
+   "icon": "🥪",
+   "cuisine": "Sandwiches & salads",
+   "announced": "10:45",
+   "late": false
+  },
   {
    "date": "2026-11-02",
    "vendor": "Tender Greens",
@@ -35,14 +43,6 @@
    "cuisine": "Cuban bakery",
    "announced": "11:04",
    "late": false
-  },
-  {
-   "date": "2026-10-27",
-   "vendor": "Tender Greens",
-   "icon": "🥗",
-   "cuisine": "Salads & plates",
-   "announced": "11:06",
-   "late": false
   }
  ],
  "advisories": [
@@ -67,20 +67,6 @@
  ],
  "forecast": [
   {
-   "date": "2026-11-03",
-   "dow": "Tue",
-   "label": "Nov 3",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Mendocino Farms",
-   "short": "Mendo",
-   "icon": "🥪",
-   "p": 8,
-   "arrival": "11:08",
-   "delay_pct": 17
-  },
-  {
    "date": "2026-11-04",
    "dow": "Wed",
    "label": "Nov 4",
@@ -90,7 +76,7 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 25,
+   "p": 28,
    "arrival": "11:01",
    "delay_pct": 0
   },
@@ -104,7 +90,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 11,
+   "p": 12,
    "arrival": "11:06",
    "delay_pct": 8
   },
@@ -174,9 +160,9 @@
    "vendor": "Mendocino Farms",
    "short": "Mendo",
    "icon": "🥪",
-   "p": 7,
-   "arrival": "11:08",
-   "delay_pct": 17
+   "p": 10,
+   "arrival": "11:06",
+   "delay_pct": 15
   },
   {
    "date": "2026-11-11",
@@ -191,6 +177,20 @@
    "p": 22,
    "arrival": "11:01",
    "delay_pct": 0
+  },
+  {
+   "date": "2026-11-12",
+   "dow": "Thu",
+   "label": "Nov 12",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Guzzu",
+   "short": "Guzzu",
+   "icon": "🍱",
+   "p": 10,
+   "arrival": "11:06",
+   "delay_pct": 8
   }
  ]
 }
