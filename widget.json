@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-05T10:01-08:00",
+ "generated": "2026-11-05T11:13-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 19,
+ "top1_pct": 18,
  "top3_pct": 37,
  "recent": [
+  {
+   "date": "2026-11-05",
+   "vendor": "Tacos 1986",
+   "icon": "🌮",
+   "cuisine": "Tacos",
+   "announced": "10:41",
+   "late": false
+  },
   {
    "date": "2026-11-04",
    "vendor": "Porto's",
@@ -35,14 +43,6 @@
    "cuisine": "Thai",
    "announced": "11:18",
    "late": true
-  },
-  {
-   "date": "2026-10-29",
-   "vendor": "CCC",
-   "icon": "🍗",
-   "cuisine": "Chicken & salads",
-   "announced": "11:08",
-   "late": false
   }
  ],
  "advisories": [
@@ -67,20 +67,6 @@
  ],
  "forecast": [
   {
-   "date": "2026-11-05",
-   "dow": "Thu",
-   "label": "Nov 5",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 15,
-   "arrival": "11:06",
-   "delay_pct": 8
-  },
-  {
    "date": "2026-11-06",
    "dow": "Fri",
    "label": "Nov 6",
@@ -90,7 +76,7 @@
    "vendor": "Ggiata",
    "short": "Ggiata",
    "icon": "🥪",
-   "p": 9,
+   "p": 10,
    "arrival": "11:12",
    "delay_pct": 25
   },
@@ -175,7 +161,7 @@
    "short": "Guzzu",
    "icon": "🍱",
    "p": 10,
-   "arrival": "11:06",
+   "arrival": "11:03",
    "delay_pct": 8
   },
   {
@@ -191,6 +177,20 @@
    "p": 7,
    "arrival": "11:12",
    "delay_pct": 25
+  },
+  {
+   "date": "2026-11-14",
+   "dow": "Sat",
+   "label": "Nov 14",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
   }
  ]
 }
