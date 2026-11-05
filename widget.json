@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T11:14-08:00",
+ "generated": "2026-11-05T10:01-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
  "top3_pct": 37,
@@ -161,7 +161,7 @@
    "short": "Porto's",
    "icon": "🥐",
    "p": 23,
-   "arrival": "10:59",
+   "arrival": "10:58",
    "delay_pct": 0
   },
   {
