@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T10:00-08:00",
+ "generated": "2026-11-06T11:12-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 18,
  "top3_pct": 37,
@@ -46,6 +46,15 @@
   }
  ],
  "advisories": [
+  {
+   "id": "confirmed-2026-11-06",
+   "date": "2026-11-06",
+   "label": "Fri Nov 6",
+   "icon": "📣",
+   "kind": "Announced",
+   "title": "Prime Pizza",
+   "detail": "Prime Pizza ETA ~11:50 today"
+  },
   {
    "id": "closed-2026-11-26",
    "date": "2026-11-26",
