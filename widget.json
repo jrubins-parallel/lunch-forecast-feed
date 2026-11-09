@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-06T11:12-08:00",
+ "generated": "2026-11-09T09:59-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 18,
- "top3_pct": 37,
+ "top1_pct": 17,
+ "top3_pct": 36,
  "recent": [
+  {
+   "date": "2026-11-06",
+   "vendor": "Prime Pizza",
+   "icon": "🍕",
+   "cuisine": "Pizza",
+   "announced": "11:58",
+   "late": true
+  },
   {
    "date": "2026-11-05",
    "vendor": "Tacos 1986",
@@ -35,26 +43,9 @@
    "cuisine": "Salads & plates",
    "announced": "10:59",
    "late": false
-  },
-  {
-   "date": "2026-10-30",
-   "vendor": "Boran Thai",
-   "icon": "🍜",
-   "cuisine": "Thai",
-   "announced": "11:18",
-   "late": true
   }
  ],
  "advisories": [
-  {
-   "id": "confirmed-2026-11-06",
-   "date": "2026-11-06",
-   "label": "Fri Nov 6",
-   "icon": "📣",
-   "kind": "Announced",
-   "title": "Prime Pizza",
-   "detail": "Prime Pizza ETA ~11:50 today"
-  },
   {
    "id": "closed-2026-11-26",
    "date": "2026-11-26",
@@ -75,48 +66,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-06",
-   "dow": "Fri",
-   "label": "Nov 6",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Ggiata",
-   "short": "Ggiata",
-   "icon": "🥪",
-   "p": 10,
-   "arrival": "11:12",
-   "delay_pct": 25
-  },
-  {
-   "date": "2026-11-07",
-   "dow": "Sat",
-   "label": "Nov 7",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
-   "date": "2026-11-08",
-   "dow": "Sun",
-   "label": "Nov 8",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
   {
    "date": "2026-11-09",
    "dow": "Mon",
@@ -185,7 +134,7 @@
    "icon": "🥪",
    "p": 7,
    "arrival": "11:12",
-   "delay_pct": 25
+   "delay_pct": 33
   },
   {
    "date": "2026-11-14",
@@ -200,6 +149,48 @@
    "p": null,
    "arrival": "",
    "delay_pct": null
+  },
+  {
+   "date": "2026-11-15",
+   "dow": "Sun",
+   "label": "Nov 15",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-11-16",
+   "dow": "Mon",
+   "label": "Nov 16",
+   "weekend": false,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 26,
+   "arrival": "10:58",
+   "delay_pct": 0
+  },
+  {
+   "date": "2026-11-17",
+   "dow": "Tue",
+   "label": "Nov 17",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Mendocino Farms",
+   "short": "Mendo",
+   "icon": "🥪",
+   "p": 9,
+   "arrival": "11:04",
+   "delay_pct": 17
   }
  ]
 }
