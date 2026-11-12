@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-12T10:00-08:00",
+ "generated": "2026-11-12T11:15-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 18,
+ "top1_pct": 17,
  "top3_pct": 38,
  "recent": [
+  {
+   "date": "2026-11-12",
+   "vendor": "Guzzu",
+   "icon": "🍱",
+   "cuisine": "Japanese bento",
+   "announced": "10:58",
+   "late": false
+  },
   {
    "date": "2026-11-10",
    "vendor": "Porto's",
@@ -35,14 +43,6 @@
    "cuisine": "Tacos",
    "announced": "10:41",
    "late": false
-  },
-  {
-   "date": "2026-11-04",
-   "vendor": "Porto's",
-   "icon": "🥐",
-   "cuisine": "Cuban bakery",
-   "announced": "10:56",
-   "late": false
   }
  ],
  "advisories": [
@@ -66,20 +66,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-12",
-   "dow": "Thu",
-   "label": "Nov 12",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 13,
-   "arrival": "11:02",
-   "delay_pct": 8
-  },
   {
    "date": "2026-11-13",
    "dow": "Fri",
@@ -174,7 +160,7 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 10,
+   "p": 12,
    "arrival": "11:02",
    "delay_pct": 8
   },
@@ -191,6 +177,20 @@
    "p": 6,
    "arrival": "11:12",
    "delay_pct": 33
+  },
+  {
+   "date": "2026-11-21",
+   "dow": "Sat",
+   "label": "Nov 21",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
   }
  ]
 }
