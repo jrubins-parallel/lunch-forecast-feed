@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:59-08:00",
+ "generated": "2026-11-12T10:00-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 18,
  "top3_pct": 38,
@@ -47,15 +47,6 @@
  ],
  "advisories": [
   {
-   "id": "no_lunch-2026-11-11",
-   "date": "2026-11-11",
-   "label": "Wed Nov 11",
-   "icon": "🚫",
-   "kind": "No catering",
-   "title": "No catering",
-   "detail": "Veterans Day: company holiday (full day off)"
-  },
-  {
    "id": "closed-2026-11-26",
    "date": "2026-11-26",
    "label": "Thu Nov 26",
@@ -75,20 +66,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-11",
-   "dow": "Wed",
-   "label": "Nov 11",
-   "weekend": true,
-   "sky": "🏖️",
-   "condition": "Veterans Day: company holiday (full day off)",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
   {
    "date": "2026-11-12",
    "dow": "Thu",
@@ -184,7 +161,7 @@
    "short": "Porto's",
    "icon": "🥐",
    "p": 23,
-   "arrival": "10:58",
+   "arrival": "10:57",
    "delay_pct": 0
   },
   {
@@ -200,6 +177,20 @@
    "p": 10,
    "arrival": "11:02",
    "delay_pct": 8
+  },
+  {
+   "date": "2026-11-20",
+   "dow": "Fri",
+   "label": "Nov 20",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Prime Pizza",
+   "short": "Prime Pizza",
+   "icon": "🍕",
+   "p": 6,
+   "arrival": "11:12",
+   "delay_pct": 33
   }
  ]
 }
