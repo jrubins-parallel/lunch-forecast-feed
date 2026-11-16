@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-13T11:18-08:00",
+ "generated": "2026-11-16T09:59-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 18,
- "top3_pct": 39,
+ "top3_pct": 40,
  "recent": [
   {
    "date": "2026-11-13",
@@ -67,34 +67,6 @@
  ],
  "forecast": [
   {
-   "date": "2026-11-14",
-   "dow": "Sat",
-   "label": "Nov 14",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
-   "date": "2026-11-15",
-   "dow": "Sun",
-   "label": "Nov 15",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
    "date": "2026-11-16",
    "dow": "Mon",
    "label": "Nov 16",
@@ -115,10 +87,10 @@
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "Tender Greens",
-   "short": "Tender Greens",
-   "icon": "🥗",
-   "p": 9,
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 7,
    "arrival": "11:04",
    "delay_pct": 17
   },
@@ -132,7 +104,7 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 24,
+   "p": 23,
    "arrival": "10:57",
    "delay_pct": 0
   },
@@ -161,8 +133,8 @@
    "short": "Ggiata",
    "icon": "🥪",
    "p": 9,
-   "arrival": "11:05",
-   "delay_pct": 31
+   "arrival": "11:00",
+   "delay_pct": 33
   },
   {
    "date": "2026-11-21",
@@ -191,6 +163,34 @@
    "p": null,
    "arrival": "",
    "delay_pct": null
+  },
+  {
+   "date": "2026-11-23",
+   "dow": "Mon",
+   "label": "Nov 23",
+   "weekend": false,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 28,
+   "arrival": "10:56",
+   "delay_pct": 0
+  },
+  {
+   "date": "2026-11-24",
+   "dow": "Tue",
+   "label": "Nov 24",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Mendocino Farms",
+   "short": "Mendo",
+   "icon": "🥪",
+   "p": 9,
+   "arrival": "11:04",
+   "delay_pct": 17
   }
  ]
 }
