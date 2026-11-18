@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-18T09:59-08:00",
+ "generated": "2026-11-18T11:33-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 18,
- "top3_pct": 39,
+ "top1_pct": 19,
+ "top3_pct": 40,
  "recent": [
+  {
+   "date": "2026-11-18",
+   "vendor": "Porto's",
+   "icon": "🥐",
+   "cuisine": "Cuban bakery",
+   "announced": "11:19",
+   "late": false
+  },
   {
    "date": "2026-11-17",
    "vendor": "Guzzu",
@@ -35,14 +43,6 @@
    "cuisine": "Japanese bento",
    "announced": "10:58",
    "late": false
-  },
-  {
-   "date": "2026-11-10",
-   "vendor": "Porto's",
-   "icon": "🥐",
-   "cuisine": "Cuban bakery",
-   "announced": "10:53",
-   "late": false
   }
  ],
  "advisories": [
@@ -67,30 +67,16 @@
  ],
  "forecast": [
   {
-   "date": "2026-11-18",
-   "dow": "Wed",
-   "label": "Nov 18",
-   "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
-   "vendor": "Porto's",
-   "short": "Porto's",
-   "icon": "🥐",
-   "p": 29,
-   "arrival": "10:57",
-   "delay_pct": 0
-  },
-  {
    "date": "2026-11-19",
    "dow": "Thu",
    "label": "Nov 19",
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "Mendocino Farms",
-   "short": "Mendo",
-   "icon": "🥪",
-   "p": 6,
+   "vendor": "Tacos 1986",
+   "short": "Tacos 1986",
+   "icon": "🌮",
+   "p": 5,
    "arrival": "11:02",
    "delay_pct": 8
   },
@@ -104,7 +90,7 @@
    "vendor": "Ggiata",
    "short": "Ggiata",
    "icon": "🥪",
-   "p": 11,
+   "p": 12,
    "arrival": "11:00",
    "delay_pct": 33
   },
@@ -157,10 +143,10 @@
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 7,
+   "vendor": "Mendocino Farms",
+   "short": "Mendo",
+   "icon": "🥪",
+   "p": 9,
    "arrival": "11:04",
    "delay_pct": 17
   },
@@ -174,8 +160,8 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 23,
-   "arrival": "10:57",
+   "p": 24,
+   "arrival": "10:58",
    "delay_pct": 0
   },
   {
@@ -185,6 +171,20 @@
    "weekend": true,
    "sky": "🏖️",
    "condition": "Thanksgiving",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
+  },
+  {
+   "date": "2026-11-27",
+   "dow": "Fri",
+   "label": "Nov 27",
+   "weekend": true,
+   "sky": "🏖️",
+   "condition": "Day after Thanksgiving",
    "vendor": "",
    "short": "",
    "icon": "",
