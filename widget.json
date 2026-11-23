@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-23T09:59-08:00",
+ "generated": "2026-11-23T11:11-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
  "top3_pct": 42,
  "recent": [
+  {
+   "date": "2026-11-23",
+   "vendor": "Sweetgreen",
+   "icon": "🥗",
+   "cuisine": "Salad bowls",
+   "announced": "11:01",
+   "late": false
+  },
   {
    "date": "2026-11-20",
    "vendor": "Chipotle",
@@ -35,14 +43,6 @@
    "cuisine": "Japanese bento",
    "announced": "11:05",
    "late": false
-  },
-  {
-   "date": "2026-11-16",
-   "vendor": "John's Kabob",
-   "icon": "🍢",
-   "cuisine": "Mediterranean kabobs",
-   "announced": "11:55",
-   "late": true
   }
  ],
  "advisories": [
@@ -94,20 +94,6 @@
  ],
  "forecast": [
   {
-   "date": "2026-11-23",
-   "dow": "Mon",
-   "label": "Nov 23",
-   "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
-   "vendor": "Tender Greens",
-   "short": "Tender Greens",
-   "icon": "🥗",
-   "p": 27,
-   "arrival": "10:58",
-   "delay_pct": 10
-  },
-  {
    "date": "2026-11-24",
    "dow": "Tue",
    "label": "Nov 24",
@@ -117,7 +103,7 @@
    "vendor": "John's Kabob",
    "short": "John's Kabob",
    "icon": "🍢",
-   "p": 6,
+   "p": 7,
    "arrival": "11:04",
    "delay_pct": 17
   },
@@ -126,12 +112,12 @@
    "dow": "Wed",
    "label": "Nov 25",
    "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 7,
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Porto's",
+   "short": "Porto's",
+   "icon": "🥐",
+   "p": 27,
    "arrival": "10:59",
    "delay_pct": 0
   },
@@ -196,14 +182,14 @@
    "dow": "Mon",
    "label": "Nov 30",
    "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Porto's",
-   "short": "Porto's",
-   "icon": "🥐",
-   "p": 8,
-   "arrival": "10:58",
-   "delay_pct": 10
+   "sky": "⛅",
+   "condition": "Partly cloudy",
+   "vendor": "Tender Greens",
+   "short": "Tender Greens",
+   "icon": "🥗",
+   "p": 26,
+   "arrival": "10:59",
+   "delay_pct": 9
   },
   {
    "date": "2026-12-01",
@@ -215,9 +201,23 @@
    "vendor": "Mendocino Farms",
    "short": "Mendo",
    "icon": "🥪",
-   "p": 10,
+   "p": 9,
    "arrival": "11:04",
    "delay_pct": 17
+  },
+  {
+   "date": "2026-12-02",
+   "dow": "Wed",
+   "label": "Dec 2",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Guzzu",
+   "short": "Guzzu",
+   "icon": "🍱",
+   "p": 8,
+   "arrival": "10:59",
+   "delay_pct": 0
   }
  ]
 }
