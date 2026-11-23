@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-20T11:32-08:00",
+ "generated": "2026-11-23T09:59-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
- "top1_pct": 18,
- "top3_pct": 39,
+ "top1_pct": 19,
+ "top3_pct": 42,
  "recent": [
   {
    "date": "2026-11-20",
@@ -63,37 +63,36 @@
    "kind": "No catering",
    "title": "Day after Thanksgiving",
    "detail": "Office holiday: no catered lunch."
+  },
+  {
+   "id": "closed-2026-12-21",
+   "date": "2026-12-21",
+   "label": "Mon Dec 21",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Year-end break (expected, like last year)",
+   "detail": "Office holiday: no catered lunch."
+  },
+  {
+   "id": "closed-2026-12-22",
+   "date": "2026-12-22",
+   "label": "Tue Dec 22",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Year-end break (expected, like last year)",
+   "detail": "Office holiday: no catered lunch."
+  },
+  {
+   "id": "closed-2026-12-23",
+   "date": "2026-12-23",
+   "label": "Wed Dec 23",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Year-end break (expected, like last year)",
+   "detail": "Office holiday: no catered lunch."
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-21",
-   "dow": "Sat",
-   "label": "Nov 21",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
-  {
-   "date": "2026-11-22",
-   "dow": "Sun",
-   "label": "Nov 22",
-   "weekend": true,
-   "sky": "🌙",
-   "condition": "No catering",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
   {
    "date": "2026-11-23",
    "dow": "Mon",
@@ -115,10 +114,10 @@
    "weekend": false,
    "sky": "☁️",
    "condition": "Cloudy",
-   "vendor": "Guzzu",
-   "short": "Guzzu",
-   "icon": "🍱",
-   "p": 7,
+   "vendor": "John's Kabob",
+   "short": "John's Kabob",
+   "icon": "🍢",
+   "p": 6,
    "arrival": "11:04",
    "delay_pct": 17
   },
@@ -127,12 +126,12 @@
    "dow": "Wed",
    "label": "Nov 25",
    "weekend": false,
-   "sky": "⛅",
-   "condition": "Partly cloudy",
-   "vendor": "Porto's",
-   "short": "Porto's",
-   "icon": "🥐",
-   "p": 24,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Guzzu",
+   "short": "Guzzu",
+   "icon": "🍱",
+   "p": 7,
    "arrival": "10:59",
    "delay_pct": 0
   },
@@ -191,6 +190,34 @@
    "p": null,
    "arrival": "",
    "delay_pct": null
+  },
+  {
+   "date": "2026-11-30",
+   "dow": "Mon",
+   "label": "Nov 30",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Porto's",
+   "short": "Porto's",
+   "icon": "🥐",
+   "p": 8,
+   "arrival": "10:58",
+   "delay_pct": 10
+  },
+  {
+   "date": "2026-12-01",
+   "dow": "Tue",
+   "label": "Dec 1",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Mendocino Farms",
+   "short": "Mendo",
+   "icon": "🥪",
+   "p": 10,
+   "arrival": "11:04",
+   "delay_pct": 17
   }
  ]
 }
