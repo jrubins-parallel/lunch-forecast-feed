@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-23T11:11-08:00",
+ "generated": "2026-11-24T09:59-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
- "top3_pct": 42,
+ "top3_pct": 41,
  "recent": [
   {
    "date": "2026-11-23",
@@ -188,8 +188,8 @@
    "short": "Tender Greens",
    "icon": "🥗",
    "p": 26,
-   "arrival": "10:59",
-   "delay_pct": 9
+   "arrival": "10:58",
+   "delay_pct": 10
   },
   {
    "date": "2026-12-01",
