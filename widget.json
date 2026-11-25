@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T11:13-08:00",
+ "generated": "2026-11-25T09:58-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
  "top3_pct": 42,
@@ -189,7 +189,7 @@
    "icon": "🥪",
    "p": 9,
    "arrival": "11:03",
-   "delay_pct": 15
+   "delay_pct": 8
   },
   {
    "date": "2026-12-02",
