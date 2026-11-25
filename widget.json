@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-25T09:58-08:00",
+ "generated": "2026-11-25T11:32-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
  "top3_pct": 42,
  "recent": [
+  {
+   "date": "2026-11-25",
+   "vendor": "Unknown",
+   "icon": "🍽️",
+   "cuisine": "Not named in the post",
+   "announced": "11:12",
+   "late": false
+  },
   {
    "date": "2026-11-24",
    "vendor": "Porto's",
@@ -34,14 +42,6 @@
    "icon": "🥪",
    "cuisine": "Sandwiches & salads",
    "announced": "10:41",
-   "late": false
-  },
-  {
-   "date": "2026-11-18",
-   "vendor": "Porto's",
-   "icon": "🥐",
-   "cuisine": "Cuban bakery",
-   "announced": "11:19",
    "late": false
   }
  ],
@@ -93,20 +93,6 @@
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-25",
-   "dow": "Wed",
-   "label": "Nov 25",
-   "weekend": false,
-   "sky": "☁️",
-   "condition": "Cloudy",
-   "vendor": "Gogobop",
-   "short": "Gogobop",
-   "icon": "🍚",
-   "p": 7,
-   "arrival": "10:59",
-   "delay_pct": 0
-  },
   {
    "date": "2026-11-26",
    "dow": "Thu",
@@ -201,8 +187,8 @@
    "vendor": "Guzzu",
    "short": "Guzzu",
    "icon": "🍱",
-   "p": 8,
-   "arrival": "10:59",
+   "p": 7,
+   "arrival": "11:01",
    "delay_pct": 0
   },
   {
@@ -215,9 +201,23 @@
    "vendor": "Porto's",
    "short": "Porto's",
    "icon": "🥐",
-   "p": 12,
+   "p": 13,
    "arrival": "11:00",
    "delay_pct": 8
+  },
+  {
+   "date": "2026-12-04",
+   "dow": "Fri",
+   "label": "Dec 4",
+   "weekend": false,
+   "sky": "☁️",
+   "condition": "Cloudy",
+   "vendor": "Ggiata",
+   "short": "Ggiata",
+   "icon": "🥪",
+   "p": 9,
+   "arrival": "11:00",
+   "delay_pct": 25
   }
  ]
 }
