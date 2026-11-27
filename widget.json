@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:59-08:00",
+ "generated": "2026-11-27T09:59-08:00",
  "dashboard_url": "https://claude.ai/artifact/9L2GLDqhSNaStfPFdiLbnz",
  "top1_pct": 19,
  "top3_pct": 42,
@@ -47,15 +47,6 @@
  ],
  "advisories": [
   {
-   "id": "closed-2026-11-27",
-   "date": "2026-11-27",
-   "label": "Fri Nov 27",
-   "icon": "🏖️",
-   "kind": "No catering",
-   "title": "Day after Thanksgiving",
-   "detail": "Office holiday: no catered lunch."
-  },
-  {
    "id": "closed-2026-12-21",
    "date": "2026-12-21",
    "label": "Mon Dec 21",
@@ -90,23 +81,18 @@
    "kind": "No catering",
    "title": "Year-end break (expected, like last year)",
    "detail": "Office holiday: no catered lunch."
+  },
+  {
+   "id": "closed-2026-12-25",
+   "date": "2026-12-25",
+   "label": "Fri Dec 25",
+   "icon": "🏖️",
+   "kind": "No catering",
+   "title": "Year-end break (expected, like last year)",
+   "detail": "Office holiday: no catered lunch."
   }
  ],
  "forecast": [
-  {
-   "date": "2026-11-26",
-   "dow": "Thu",
-   "label": "Nov 26",
-   "weekend": true,
-   "sky": "🏖️",
-   "condition": "Thanksgiving",
-   "vendor": "",
-   "short": "",
-   "icon": "",
-   "p": null,
-   "arrival": "",
-   "delay_pct": null
-  },
   {
    "date": "2026-11-27",
    "dow": "Fri",
@@ -202,8 +188,8 @@
    "short": "Porto's",
    "icon": "🥐",
    "p": 13,
-   "arrival": "11:00",
-   "delay_pct": 8
+   "arrival": "10:58",
+   "delay_pct": 0
   },
   {
    "date": "2026-12-04",
@@ -218,6 +204,20 @@
    "p": 9,
    "arrival": "11:00",
    "delay_pct": 25
+  },
+  {
+   "date": "2026-12-05",
+   "dow": "Sat",
+   "label": "Dec 5",
+   "weekend": true,
+   "sky": "🌙",
+   "condition": "No catering",
+   "vendor": "",
+   "short": "",
+   "icon": "",
+   "p": null,
+   "arrival": "",
+   "delay_pct": null
   }
  ]
 }
